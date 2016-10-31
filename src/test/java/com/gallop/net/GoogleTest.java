@@ -13,7 +13,7 @@ public class GoogleTest{
 		driver.get("http://www.google.com");
 		try{
 			String title = driver.findElement(By.tagName("title")).getAttribute("textContent");
-			Assert.assertEquals(title,"Google");
+			Assert.assertEquals(title,"Googles");
 		}catch(Exception e){
 			e.printStackTrace();
 		}finally{
