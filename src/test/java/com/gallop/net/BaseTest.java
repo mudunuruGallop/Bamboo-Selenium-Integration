@@ -20,7 +20,7 @@ public class BaseTest {
 			driver = new FirefoxDriver();
 		}else if(browser.equals(CHROME_BROWSER)){
 			System.out.println("Intialize chrome browser");
-			String driverPath = "resources/chromedriver";
+			String driverPath = "/Users/chandra/Desktop/workingSpace/eclipseSpace/BambooGallopIntg/resources/chromedriver";
 			System.setProperty("webdriver.chrome.driver", driverPath);
 			driver = new ChromeDriver();
 		}
